@@ -10,25 +10,25 @@ const Banner = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={img1} alt="First slide" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Certified Visa Consultant</h3>
+            <p>I am a certified visa consultant in Dhaka</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={img2} alt="Second slide" />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Available for almost every county</h3>
+            <p>Yes! I provide visa guidline for every country in the world </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={img3} alt="Third slide" />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h3>Catch your dream</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              I always help people for catching their dream to get foreign visa
             </p>
           </Carousel.Caption>
         </Carousel.Item>
