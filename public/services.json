@@ -1,44 +1,30 @@
 [
-    {
-        "id": 1,
-        "name": "Student Visa",
-        "price": "$500",
-        "description": "Students now can easily",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
-    },
-    {
-        "id": 2,
-        "name": "WHEEL ALIGNMENT",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
-    },
-    {
-        "id": 3,
-        "name": "OIL CHANGING",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
-    },
-    {
-        "id": 4,
-        "name": "BRAKE REPARING",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
-    },
-    {
-        "id": 5,
-        "name": "WASH AND GLASSING",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
-    },
-    {
-        "id": 6,
-        "name": "COMPLETE ANALYSIS",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
-    }
+  {
+    "id": 1,
+    "name": "Student Visa",
+    "price": "$500",
+    "description": "Students can get F1 students visa,J1 exchange visitor visa and also non-academic visa from me!",
+    "img": "https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/visa-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Residence Visa",
+    "price": "$600",
+    "description": "Residence visa now-a-days hardly offering by county,but with some of my tips you can easily persue it!",
+    "img": "https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/visa-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Business Visa",
+    "price": "$750",
+    "description": "I provide Business Visa,Employment Visa and Project Visa as well. ",
+    "img": "https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/visa-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tourist Visa",
+    "price": "$980",
+    "description": "If you are ready to explore the world,I am always here to help you",
+    "img": "https://fastwpdemo.com/newwp/immigo/wp-content/uploads/2022/02/visa-4.jpg"
+  }
 ]
