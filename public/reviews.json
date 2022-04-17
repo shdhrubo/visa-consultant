@@ -1,0 +1,26 @@
+[
+  {
+    "name": "John De",
+    "id": 1,
+    "text": "He is excellent.You can hire him!I highly recommend him",
+    "ratings": "4.8 Starts"
+  },
+  {
+    "name": "Abraham Khan",
+    "id": 2,
+    "text": "Nice behaviour,he is surely recommended",
+    "ratings": "4.5 Starts"
+  },
+  {
+    "name": "Roman Hugs",
+    "id": 3,
+    "text": "I live in Paris now.It's just because of him",
+    "ratings": "4.9 Starts"
+  },
+  {
+    "name": "John Demonty",
+    "id": 4,
+    "text": "He is probably the best Consultant",
+    "ratings": "5 Starts"
+  }
+]
