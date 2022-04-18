@@ -11,7 +11,7 @@ const Header = () => {
     signOut(auth);
   };
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar">
+    <Navbar collapseOnSelect expand="lg" className="navbar" sticky='top'>
       <Container>
         <Navbar.Brand className="text-danger" as={Link} to="/home">
           Visa Consultant

@@ -10,6 +10,7 @@ import auth from "../../firebase.init";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loading from "../Loading/Loading";
+import SocialLogin from "../../SocialLogin/SocialLogin";
 
 const Login = () => {
   const emailRef = useRef("");
@@ -42,6 +43,7 @@ const Login = () => {
     const password = passwordRef.current.value;
 
     signInWithEmailAndPassword(email, password);
+   
   };
 
   const navigateRegister = (event) => {
@@ -99,10 +101,11 @@ const Login = () => {
           className="btn btn-link text-danger pe-auto text-decoration-none"
           onClick={resetPassword}
         >
+          {" "}
           Reset Password
         </button>{" "}
       </p>
-      {/* <SocialLogin></SocialLogin> */}
+      <SocialLogin></SocialLogin>
       <ToastContainer />
     </div>
   );
