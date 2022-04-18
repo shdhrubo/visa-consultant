@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import Blogs from "./components/Blogs/Blogs";
 import Register from "./components/Register/Register";
+import Notfound from "./components/Notfound/Notfound";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        <Route path={'/register'} element={<Register></Register>}></Route>
+        <Route path={"/register"} element={<Register></Register>}></Route>
+        <Route path={"*"} element={<Notfound></Notfound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
