@@ -2,6 +2,22 @@
 
 live site link [Visa consultant](https://visa-consultant-50b18.web.app/).
 
+# Features and functionality
+
+- This website is for those who want a visa consultant
+- User can explore services and customers reviews
+- User can hire the consultant for different visa types and for that they need to be logged in website
+- For log in they can use gmail
+- Besides they can log in by creating account with email and password
+- A verification email will be sent to the user after creating new account and they will be notified in the ui
+- If they forget their password they can recover it
+
+# Technologies (frameworks, libraries) used
+
+- Html,css,react,react bootstrap
+- Firebase and react firebase hooks for authentication
+- React router for routing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
