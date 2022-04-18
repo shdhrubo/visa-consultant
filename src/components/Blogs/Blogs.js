@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div className="text-start">
+    <div className="container text-start">
       <h2 className="text-center">Question and Answer Session</h2>
       <br />
       <p>
