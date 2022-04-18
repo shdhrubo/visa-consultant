@@ -2,9 +2,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Banner from "./components/Banner/Banner";
-import Services from "./components/Services/Services";
-import Reviews from "./components/Reviews/Reviews";
 import About from "./components/About/About";
 import Login from "./components/Login/Login";
 import Footer from "./components/Footer/Footer";
@@ -22,7 +19,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path="/services/:id" element={<Checkout></Checkout>}></Route>
+        <Route
+          path="/services/:id"
+          element={
+            <RequireAuth>
+              <Checkout></Checkout>
+            </RequireAuth>
+          }
+        ></Route>
         <Route
           path={"/finalcheckout"}
           element={
